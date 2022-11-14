@@ -1,0 +1,4 @@
+2022-11-14 17:22:00    %1  Root WebApplicationContext: initialization started
+2022-11-14 17:22:01    %1  Root WebApplicationContext initialized in 571 ms
+2022-11-14 17:22:41    %1  Initializing Servlet 'springmvc'
+2022-11-14 17:22:43    %1  Completed initialization in 1624 ms
