@@ -10,6 +10,13 @@
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.wang.service"></context:component-scan>
+    <!--<context:component-scan base-package="com.wang.service"></context:component-scan>-->
+
+    <!--项目名称-->
+    <dubbo:application name="dubbo-service"></dubbo:application>
+    <!--注册中心（zookeeper）的地址-->
+    <dubbo:registry address="zookkeeper://192.168.137.1:2181"></dubbo:registry>
+    <!--包扫描-->
+    <dubbo:annotation package="com.wang.service.impl"></dubbo:annotation>
 
 </beans>
